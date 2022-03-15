@@ -2,6 +2,10 @@
   background-color: #fff;
 }
 
+.sitenav-list{
+  list-style: none;
+}
+
 .sitenav-link{
   font-size: 13px;
   line-height: 15px;
@@ -112,6 +116,9 @@
   object-fit: cover;
 }
 
+.site-footer ul {
+  list-style-type: none;
+}
 .site-footer{
   width: 1440px;
   background-color: #F8F8F8;;
@@ -120,4 +127,15 @@
   width: 1100px;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-links{
+  width: 224px; 
+}
+
+.site-footer-links a{
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #252420;
 }
