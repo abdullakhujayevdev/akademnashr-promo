@@ -4,12 +4,24 @@ body{
   letter-spacing: 0.5px;
 }
 
+
+/* SITE - HEADER */
 .site-header{
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.site-header-actions{
+  display: flex;
+  align-items: center;
+}
+
+/* SITENA V */
 .sitenav-list{
   list-style: none;
+  display: flex;
 }
 
 .sitenav-link{
@@ -35,6 +47,9 @@ body{
 }
 
 .hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -66,9 +81,18 @@ body{
   letter-spacing: 1.5px;
 }
 
+
+/* FEATURES */
 .feature{
   width: 340px;
 }
+
+.features-list{
+ display: flex;
+ list-style: none;
+ justify-content: space-between;
+}
+
 .features-heading{
   width: 440px;
   font-size: 72px;
@@ -94,6 +118,9 @@ body{
 }
 
 .promo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #FFFFFF;
 }
@@ -124,9 +151,19 @@ body{
   object-fit: cover;
 }
 
+.site-footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .site-footer ul {
   list-style-type: none;
 }
+.site-footer-socials{
+  display: flex;
+  align-items: center;
+}
+
 .site-footer{
   width: 1440px;
   background-color: #F8F8F8;;
@@ -148,4 +185,8 @@ body{
   text-decoration: none;
   color: #252420;
   font-family: 'Roboto', sans-serif;
+}
+.site-footer-bottom{
+  display: flex;
+  justify-content: center;
 }
