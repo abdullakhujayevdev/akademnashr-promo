@@ -4,6 +4,10 @@ body{
   letter-spacing: 0.5px;
 }
 
+*:focus{
+  outline: 2px dotted #ff7500;
+  outline-offset: 1.5px;
+}
 
 /* SITE - HEADER */
 
@@ -232,7 +236,7 @@ body{
 .site-footer-links a:hover{
   color: #FF7500;
 }
-.site-footer-links a:focus{
+.site-footer-links a:active{
   opacity: 0.6;
 }
 .site-footer-bottom{
