@@ -12,8 +12,11 @@ body{
 /* SITE - HEADER */
 
 .site-header{
-  background-color: #fff;
   display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #FF7500;;
+  background-color: #fff;
   align-items: center;
   justify-content: space-between;
 }
@@ -27,6 +30,8 @@ body{
 .sitenav-list{
   list-style: none;
   display: flex;
+  padding: 0px;
+  font-weight: bold;
 }
 
 .sitenav-link{
@@ -52,13 +57,16 @@ body{
 
 /* MAIN-LINK */
 .main-link{
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 0.5px;
   color: #FFFFFF; 
-  background: #FF7500;
+  background-color: #FF7500;
   text-decoration: none;
   transition: opacity 0,4s ease;
 }
@@ -84,6 +92,7 @@ body{
 }
 
 .orange-line{
+  border: none;
   width: 80px;
   height: 3px;
   background-color: #ff7500;
@@ -91,6 +100,7 @@ body{
 .hero-img{
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .hero-heading{
@@ -118,6 +128,12 @@ body{
   opacity: 0.6;
 }
 
+/* FEATURES */
+
+.features{
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
 .feature{
   width: 340px;
 }
@@ -125,6 +141,7 @@ body{
 .features-list{
  display: flex;
  list-style: none;
+ padding: 0px;
  justify-content: space-between;
 }
 
@@ -136,8 +153,12 @@ body{
 }
 
 .feature-icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
   ;
 }
@@ -153,7 +174,8 @@ body{
 }
 
 .promo{
-  display: flex;
+  display: flex; 
+  border-radius: 12px;
   justify-content: space-between;
   align-items: center;
   background-color: #252420;
@@ -183,19 +205,29 @@ body{
 .promo-img{
   width: 440px;
   height: 440px;
+  border-radius: 12px;
   object-fit: cover;
+}
+
+/* FOOTER */
+
+.site-footer{
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: #f8f8f8;
 }
 
 .site-footer-top{
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 .site-footer ul {
   list-style-type: none;
 }
 .site-footer-socials{
   display: flex;
+  padding: 0px;
   align-items: center;
 }
 
@@ -216,13 +248,14 @@ body{
   background-color: #F8F8F8;;
 }
 .site-footer-divider{
-  width: 1100px;
   height: 2px;
+  border: 0px;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
 .site-footer-links{
   width: 224px; 
+  padding: 0px;
   line-height: 19px;
 }
 
