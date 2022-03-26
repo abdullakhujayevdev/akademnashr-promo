@@ -31,7 +31,12 @@ body{
   list-style: none;
   display: flex;
   padding: 0px;
+  margin: 0px;
   font-weight: bold;
+}
+
+.sitenav-item{
+  margin: 32px;
 }
 
 .sitenav-link{
