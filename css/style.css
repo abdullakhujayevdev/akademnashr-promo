@@ -1,4 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
+  padding: 0;
+  margin: 0;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.5px;
@@ -9,14 +15,29 @@ body{
   outline-offset: 1.5px;
 }
 
+/* CONTAINER */
+
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* SITE - HEADER */
 
 .site-header{
-  display: flex;
   padding-top: 16px;
   padding-bottom: 16px;
-  border-top: 5px solid #FF7500;;
+  border-top: 5px solid #FF7500;
   background-color: #fff;
+}
+
+
+.site-header-container{
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -91,13 +112,16 @@ body{
 /* HERO */
 
 .hero{
-  display: flex;
-  align-items: center;
   padding-top: 80px;
   padding-bottom: 80px; 
-  justify-content: space-between;
   background-color: #252420;
   color: #fff;
+}
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-content{
@@ -116,6 +140,7 @@ body{
   width: 510px;
   height: 510px;
   border-radius: 8px;
+  box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
 }
 
 .hero-heading{
@@ -145,6 +170,10 @@ body{
 }
 .logo-link:active{
   opacity: 0.6;
+}
+
+.logo-link img{
+  display: block;
 }
 
 /* FEATURES */
@@ -184,6 +213,7 @@ body{
   align-items: center;
   width: 100px;
   height: 100px;
+  margin-bottom: 32px;
   border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
   ;
@@ -192,20 +222,29 @@ body{
 .feature-title{
   font-size: 24px;
   line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .feature-info{
   font-size: 16px;
   line-height: 1.5;
+  margin: 0px;
 }
 
 .promo{
+ padding-top: 120px;
+ padding-bottom: 160px;
+}
+
+.promo-inner{
   display: flex; 
-  border-radius: 12px;
   justify-content: space-between;
   align-items: center;
+  color: #FFFFFF; 
+  padding: 64px;
+  border-radius: 12px;
   background-color: #252420;
-  color: #FFFFFF;
 }
 
 .promo-content{
@@ -250,7 +289,7 @@ body{
 .site-footer{
   padding-top: 56px;
   padding-bottom: 56px;
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 
 .site-footer-top{
@@ -284,7 +323,7 @@ body{
 
 .site-footer-socials a{
   display: block;
- color: #252420;
+  color: #252420;
 }
 
 .site-footer-socials a:active{
@@ -296,7 +335,6 @@ body{
    display: block;
  }
 .site-footer{
-  width: 1440px;
   background-color: #F8F8F8;;
 }
 .site-footer-divider{
@@ -313,6 +351,14 @@ body{
   margin: 0px;
   margin-right: 68px;
   line-height: 19px;
+}
+
+.site-footer-links li{
+  margin-bottom: 16px;
+}
+
+.site-footer-links li:last-child{
+  margin-bottom: 0px;
 }
 
 .site-footer-links:last-child{
