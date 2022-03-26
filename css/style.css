@@ -32,11 +32,15 @@ body{
   display: flex;
   padding: 0px;
   margin: 0px;
+  margin-right: 32px;
   font-weight: bold;
 }
 
 .sitenav-item{
   margin: 32px;
+}
+.sitenav-item:last-child{
+  margin-right: 0px;
 }
 
 .sitenav-link{
@@ -104,6 +108,8 @@ body{
   border: none;
   width: 80px;
   height: 3px;
+  margin: 0px;
+  margin-bottom: 40px;
   background-color: #ff7500;
 }
 .hero-img{
@@ -114,6 +120,8 @@ body{
 
 .hero-heading{
   font-size: 40px;
+  margin: 0px;
+  margin-bottom: 24px;
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.2;
 }
@@ -123,6 +131,8 @@ body{
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   letter-spacing: 1.5px;
+  margin-top: 0px;
+  margin-bottom: 32px;
 }
 
 
@@ -145,13 +155,18 @@ body{
 }
 .feature{
   width: 340px;
+  margin-right: 40px;
+}
+
+.feature:last-child{
+  margin-right: 0px;
 }
 
 .features-list{
  display: flex;
  list-style: none;
  padding: 0px;
- justify-content: space-between;
+ margin: 0px;
 }
 
 .features-heading{
@@ -159,6 +174,8 @@ body{
   font-size: 72px;
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 72px;
 }
 
 .feature-icon-wrapper{
@@ -198,14 +215,24 @@ body{
 .promo-heading{
   font-size: 40px;
   line-height: 48px;
+  margin-top: 0px;
+  margin-bottom: 24px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* .promo-text{
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
-} */
+.promo-text{
+ margin: 0px;
+ margin-bottom: 12px;
+}
+
+
+.promo-text:last-child{
+  margin-bottom: 0px;
+}
+
+.promo-info-wrapper{
+  margin-bottom: 24px;
+}
 
 .promo-highlight{
   color: #ff7500;
@@ -234,10 +261,21 @@ body{
 .site-footer ul {
   list-style-type: none;
 }
+
+/* IMG block */
 .site-footer-socials{
   display: flex;
   padding: 0px;
+  margin: 0px;
   align-items: center;
+}
+
+.site-footer-socials li{
+  margin-right: 16px;
+}
+
+.site-footer-socials li:last-child{
+  margin-right: 0px;
 }
 
 .site-footer-socials a:hover{
@@ -259,13 +297,21 @@ body{
 .site-footer-divider{
   height: 2px;
   border: 0px;
+  margin-top: 40px;
+  margin-bottom: 64px;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
 .site-footer-links{
   width: 224px; 
   padding: 0px;
+  margin: 0px;
+  margin-right: 68px;
   line-height: 19px;
+}
+
+.site-footer-links:last-child{
+  margin-right: 0px;
 }
 
 .site-footer-links a{
